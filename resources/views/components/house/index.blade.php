@@ -23,7 +23,6 @@
                 <th style="width: 20%">Nama Rumah</th>
                 <th style="width: 15%">Status Penghuni</th>
                 <th>Alamat</th>
-                <th style="width: 15%">Pembayaran</th>
                 <th style="width: 15%" class="number">Opsi</th>
                 </tr>
             </thead>
@@ -57,7 +56,6 @@
                     <td>{{ $h ->name }}</td>
                     <td>{{ $h ->resident_status }}</td>
                     <td>{{ $h ->address }}</td>
-                    <td>{{ $h ->payment_term }}</td>
                     <td>
                         <div class="option-button">
                             <a type="buton" href="/edit-house-data-{{ $h->slug }}" class="btn btn-warning"><i class="bi bi-pencil-square"></i> Ubah</a><br>

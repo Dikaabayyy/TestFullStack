@@ -36,15 +36,6 @@
                     </div>
 
                     <div class="form-controls">
-                        <label for="payment_term" class="form-label">Status Pembayaran</label><span> : </span>
-                        <select class="form-select" name="payment_term" id="payment_term">
-                            <option selected>{{ $house->payment_term }}</option>
-                            <option value="Lunas">Lunas</option>
-                            <option value="Belum Lunas">Belum Lunas</option>
-                        </select>
-                    </div>
-
-                    <div class="form-controls">
                         <label for="name_resident" class="form-label">Penghuni Rumah</label><span> : </span>
                         <input type="text" class="form-control" value="{{ $house->resident_name }}" disabled>
                     </div>

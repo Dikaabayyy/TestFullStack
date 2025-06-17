@@ -26,7 +26,6 @@
                     <th  style="width: 12%">Foto KTP</th>
                     <th  style="width: 10%">Status Pernikahan</th>
                     <th  style="width: 10%">Status Penghuni</th>
-                    <th  style="width: 10%">Status Pembayaran</th>
                     <th  style="width: 12%" class="number">Opsi</th>
                 </tr>
             </thead>
@@ -65,7 +64,6 @@
                     </td>
                     <td>{{ $r->married }}</td>
                     <td>{{ $r->resident_status }}</td>
-                    <td>{{ $r->houses->payment_term }}</td>
                     <td>
                         <div class="option-button">
                             <a type="buton" href="/edit-residents-data-{{ $r->slug }}" class="btn btn-warning"><i class="bi bi-pencil-square"></i> Ubah</a><br>

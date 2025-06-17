@@ -108,6 +108,6 @@ class HouseController extends Controller
         $house = Houses::where('slug', $slug)->firstOrFail();
         $house->delete();
 
-        return redirect()->route('houses')->with('success', 'Data rumah berhasil dihapus!');
+        return redirect()->route('house')->with('success', 'Data rumah berhasil dihapus!');
     }
 }
